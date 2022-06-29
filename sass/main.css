@@ -208,6 +208,7 @@
 #body-inner h1 {
   color: #364e96;
   /*文字色*/
+  font-weight: 600;
   border: solid 3px #364e96;
   /*線色*/
   padding: 0.5em;
@@ -216,13 +217,10 @@
   /*角丸*/ }
 
 #body-inner h2 {
-  padding: 0.5em;
-  /*文字周りの余白*/
-  color: #010101;
-  /*文字色*/
-  background: #eaf3ff;
-  /*背景色*/
-  border-bottom: solid 3px #516ab6;
+  color: blueviolet;
+  font-weight: 600;
+  padding: 10px;
+  border-left: solid 13px blueviolet;
   /*下線*/ }
 
 #body-inner h3 {
@@ -239,10 +237,9 @@
   font-size: 110%; }
 
 #body-inner ol {
+  font-size: 105%;
   color: blueviolet;
-  border: dashed 2px blueviolet;
-  background: #f9f1ff;
-  padding: 0.5em 0.5em 0.5em 2em; }
+  border-left: dashed 2px blueviolet; }
   #body-inner ol li {
     line-height: 1.5;
     padding: 0.5em 0;
@@ -250,8 +247,8 @@
     font-size: 110%; }
 
 #body-inner ul {
+  font-size: 105%;
   padding: 0;
-  font: 14px/1.6 'arial narrow', sans-serif;
   list-style: none; }
   #body-inner ul li {
     position: relative;
@@ -283,6 +280,7 @@
   display: none; }
 
 #shortcuts h3 {
+  font-size: 150%;
   border: none;
   border-bottom: 2px dotted #ccc; }
 
